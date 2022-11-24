@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+body {
+  background-color: hsl(266deg, 67%, 72%);
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 310px;
+  height: 327px;
+  background-color: #ad7bd4;
+  border-radius: 7px;
+  margin-left: 650px;
+  margin-top: 150px;
+  position: relative;
+  box-shadow: 0px 3px 12px 10px rgba(34, 60, 80, 0.2);
+}
+
+.header-box {
+  width: 310px;
+  height: 86px;
+  display: flex;
+  background-color: rgba(186, 112, 255, 0.678);
+}
+
+.top-line {
+  display: inline-block;
+  height: 30px;
+  width: 2px;
+  background: white;
+  left: 33px;
+  position: absolute;
+}
+
+.middle-line {
+  display: inline-block;
+  position: absolute;
+  top: 26%;
+  left: 34px;
+  height: 24px;
+  width: 2px;
+  background-color: rgb(204, 189, 189);
+}
+
+.circle {
+  display: inline-block;
+  position: absolute;
+  left: 10%;
+  margin-top: 4px;
+  height: 10px;
+  width: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.days-line {
+  display: inline-block;
+  width: 2px;
+  height: 14px;
+  background-color: rgb(204, 189, 189);
+  position: absolute;
+  left: 11%;
+  margin-top: -8px;
+}
+
+.second-line {
+  display: inline-block;
+  width: 2px;
+  height: 14px;
+  background-color: rgb(204, 189, 189);
+  position: absolute;
+  left: 11%;
+  margin-top: -8px;
+}
+
+.summer-line {
+  display: inline-block;
+  margin-top: -6px;
+  position: absolute;
+  left: 34px;
+  height: 39px;
+  width: 2px;
+  background-color: rgb(204, 189, 189);
+}
+
+.bottom-line {
+  display: inline-block;
+  height: 30px;
+  width: 2px;
+  background: white;
+  margin-top: -30px;
+  left: 34px;
+  position: absolute;
+}
+
+.bottom-second {
+  display: inline-block;
+  height: 25px;
+  width: 2px;
+  background: white;
+  margin-top: 60px;
+  left: 34px;
+  position: absolute;
+}
+
+.img-box {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.header-img {
+  margin-top: 4px;
+}
+
+.hed-title {
+  margin-top: 35px;
+  margin-left: 15px;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.hed-title:hover {
+  color: rgb(223, 210, 210);
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.svg-arrow {
+  margin-left: 150px;
+  margin-top: 30px;
+  height: 10px;
+}
+
+.site-main {
+  width: 310px;
+  height: 155px;
+  background-color: #5f5280;
+  padding-top: 9px;
+}
+
+.footer {
+  width: 310px;
+  height: 86px;
+  background-color: rgba(186, 112, 255, 0.678);
+}
+
+.navbar {
+  margin-left: 60px;
+  padding-top: 10px;
+}
+.navbar ul {
+  padding: 8px;
+}
+.navbar a {
+  text-align: center;
+  text-decoration: none;
+  color: rgb(223, 210, 210);
+  font-size: 19px;
+  font-weight: 400;
+  font-size: 15px;
+}
+.navbar a:hover {
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.file-box {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.file {
+  display: flex;
+  text-align: center;
+}
+
+.file-img {
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.files-title {
+  margin-top: 35px;
+  margin-left: 15px;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.files-title:hover {
+  color: rgb(223, 210, 210);
+  cursor: pointer;
+  transition: 0.3s ease;
+}/*# sourceMappingURL=main.css.map */
